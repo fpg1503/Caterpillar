@@ -13,14 +13,37 @@
 🐛 Caterpillar: Type-safe date formats in Swift, no more `"yyyy-MM-dd'T'HH:mm:ssZ"`
 
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
+- [Installation](#installation)
 - [License](#license)
 
 ## Requirements
 
 - iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.0+
+
+## Usage
+
+Simply create a `Caterpillar` using `Caterpillar()` or `🐛()`, add the desired components and set it in your `DateFormatter`:
+
+```swift
+let format = 🐛()
+    .year(.fourDigits)
+    .separator(.dash)
+    .month(.zeroPaddedNumber)
+    .separator(.dash)
+    .day(.zeroPaddedNumber)
+    .string("T")
+    .hour(.zeroPaddedTwentyFourHour)
+    .separator(.colon)
+    .minute(.zeroPaddedNumber)
+    .separator(.colon)
+    .second(.zeroPaddedNumber)
+    .timezone(.RFC822)
+
+let formatter = DateFormatter()
+formatter.setDateFormat(format)
+```
 
 ## Installation
 
@@ -126,29 +149,6 @@ $ git submodule update --init --recursive
 - Click on the `+` button under the "Embedded Binaries" section.
 - Add the downloaded `Caterpillar.framework`.
 - And that's it!
-
-## Usage
-
-Simply create a `Caterpillar` using `Caterpillar()` or `🐛()`, add the desired components and set it in your `DateFormatter`:
-
-```swift
-let format = 🐛()
-    .year(.fourDigits)
-    .separator(.dash)
-    .month(.zeroPaddedNumber)
-    .separator(.dash)
-    .day(.zeroPaddedNumber)
-    .string("T")
-    .hour(.zeroPaddedTwentyFourHour)
-    .separator(.colon)
-    .minute(.zeroPaddedNumber)
-    .separator(.colon)
-    .second(.zeroPaddedNumber)
-    .timezone(.RFC822)
-
-let formatter = DateFormatter()
-formatter.setDateFormat(format)
-```
 
 ## License
 
