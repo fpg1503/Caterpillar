@@ -129,7 +129,7 @@ $ git submodule update --init --recursive
 
 ## Usage
 
-Simply create a `Catterpillar` using `Caterpillar()` or `🐛()`, add the desired components and set it in your `DateFormatter`:
+Simply create a `Caterpillar` using `Caterpillar()` or `🐛()`, add the desired components and set it in your `DateFormatter`:
 
 ```swift
 let format = 🐛()
