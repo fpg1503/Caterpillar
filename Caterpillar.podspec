@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
  s.homepage = 'https://github.com/fpg1503'
  s.social_media_url = 'https://twitter.com/fpg1503'
  s.authors = { "Francesco Perrotti-Garcia" => "fpg1503@gmail.com" }
- s.source = { :git => "https://github.com/Francesco Perrotti-Garcia/Caterpillar.git", :tag => "v"+s.version.to_s }
+ s.source = { :git => "https://github.com/fpg1503/Caterpillar.git", :tag => "v"+s.version.to_s }
  s.platforms     = { :ios => "8.0", :osx => "10.10", :tvos => "9.0", :watchos => "2.0" }
  s.requires_arc = true
 
