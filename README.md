@@ -10,7 +10,7 @@
 [![Travis](https://img.shields.io/travis/fpg1503/Caterpillar/master.svg)](https://travis-ci.org/fpg1503/Caterpillar/branches)
 [![Cookiecutter-Swift](https://img.shields.io/badge/cookiecutter--swift-framework-red.svg)](http://github.com/cookiecutter-swift/Framework)
 
-🐛 Caterpillar: Type-safe date formats in Swift, no more yyyy-MM-dd'T'HH:mm:ssZ
+🐛 Caterpillar: Type-safe date formats in Swift, no more `"yyyy-MM-dd'T'HH:mm:ssZ"`
 
 - [Requirements](#requirements)
 - [Installation](#installation)
