@@ -129,6 +129,27 @@ $ git submodule update --init --recursive
 
 ## Usage
 
+Simply create a `Catterpillar` using `Caterpillar()` or `🐛()`, add the desired components and set it in your `DateFormatter`:
+
+```swift
+let format = 🐛()
+    .year(.fourDigits)
+    .separator(.dash)
+    .month(.zeroPaddedNumber)
+    .separator(.dash)
+    .day(.zeroPaddedNumber)
+    .string("T")
+    .hour(.zeroPaddedTwentyFourHour)
+    .separator(.colon)
+    .minute(.zeroPaddedNumber)
+    .separator(.colon)
+    .second(.zeroPaddedNumber)
+    .timezone(.RFC822)
+
+let formatter = DateFormatter()
+formatter.setDateFormat(format)
+```
+
 ## License
 
 Caterpillar is released under the MIT license. See [LICENSE](https://github.com/fpg1503/Caterpillar/blob/master/LICENSE) for details.
