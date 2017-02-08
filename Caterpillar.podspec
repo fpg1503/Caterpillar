@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
  s.name = 'Caterpillar'
  s.version = '1.0.0'
  s.license = { :type => "MIT", :file => "LICENSE" }
- s.summary = '🐛 Caterpillar: Type-safe date formats in Swift, no more yyyy-MM-dd'T'HH:mm:ssZ Edit'
+ s.summary = '🐛 Caterpillar: Type-safe date formats in Swift, no more yyyy-MM-dd\'T\'HH:mm:ssZ'
  s.homepage = 'https://github.com/fpg1503'
  s.social_media_url = 'https://twitter.com/fpg1503'
  s.authors = { "Francesco Perrotti-Garcia" => "fpg1503@gmail.com" }
