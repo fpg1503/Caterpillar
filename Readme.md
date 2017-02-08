@@ -1,16 +1,16 @@
 ## Caterpillar
 
 [![Platforms](https://img.shields.io/cocoapods/p/Caterpillar.svg)](https://cocoapods.org/pods/Caterpillar)
-[![License](https://img.shields.io/cocoapods/l/Caterpillar.svg)](https://raw.githubusercontent.com/Francesco Perrotti-Garcia/Caterpillar/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/Caterpillar.svg)](https://raw.githubusercontent.com/fpg1503/Caterpillar/master/LICENSE)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/Caterpillar.svg)](https://cocoapods.org/pods/Caterpillar)
 
-[![Travis](https://img.shields.io/travis/Francesco Perrotti-Garcia/Caterpillar/master.svg)](https://travis-ci.org/Francesco Perrotti-Garcia/Caterpillar/branches)
+[![Travis](https://img.shields.io/travis/fpg1503/Caterpillar/master.svg)](https://travis-ci.org/fpg1503/Caterpillar/branches)
 [![Cookiecutter-Swift](https://img.shields.io/badge/cookiecutter--swift-framework-red.svg)](http://github.com/cookiecutter-swift/Framework)
 
-🐛 Caterpillar: Type-safe date formats in Swift, no more yyyy-MM-dd'T'HH:mm:ssZ Edit
+🐛 Caterpillar: Type-safe date formats in Swift, no more yyyy-MM-dd'T'HH:mm:ssZ
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -76,7 +76,7 @@ import PackageDescription
 let package = Package(
     name: "HelloCaterpillar",
     dependencies: [
-        .Package(url: "https://github.com/Francesco Perrotti-Garcia/Caterpillar.git", "1.0.0")
+        .Package(url: "https://github.com/fpg1503/Caterpillar.git", "1.0.0")
     ]
 )
 ```
@@ -96,7 +96,7 @@ $ git init
 - Add Caterpillar as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/Francesco Perrotti-Garcia/Caterpillar.git
+$ git submodule add https://github.com/fpg1503/Caterpillar.git
 $ git submodule update --init --recursive
 ```
 
@@ -131,4 +131,4 @@ $ git submodule update --init --recursive
 
 ## License
 
-Caterpillar is released under the MIT license. See [LICENSE](https://github.com/Francesco Perrotti-Garcia/Caterpillar/blob/master/LICENSE) for details.
+Caterpillar is released under the MIT license. See [LICENSE](https://github.com/fpg1503/Caterpillar/blob/master/LICENSE) for details.
