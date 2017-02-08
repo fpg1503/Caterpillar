@@ -15,6 +15,7 @@
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Installation](#installation)
+- [Acknowledgments](acknowledgments)
 - [License](#license)
 
 ## Requirements
@@ -149,6 +150,12 @@ $ git submodule update --init --recursive
 - Click on the `+` button under the "Embedded Binaries" section.
 - Add the downloaded `Caterpillar.framework`.
 - And that's it!
+
+## Acknowledgments
+
+- [@leoformaggio](https://github.com/leoformaggio) for helping me come up with a name;
+- [@corujautx](https://github.com/corujautx) for giving me hint on how to improve it when it was [just a gist](https://gist.github.com/fpg1503/f583ccfd8ac863b71c621843f5ca31b1);
+
 
 ## License
 
